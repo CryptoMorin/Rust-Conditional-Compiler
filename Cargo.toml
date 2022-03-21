@@ -1,0 +1,15 @@
+[package]
+name = "conditional_compiler"
+description = "A conditional compiler that supports relational, unary and logical operators"
+authors = ["Crypto Morin"]
+version = "1.0.0"
+edition = "2021"
+repository = "https://github.com/CryptoMorin/Rust-Conditional-Compiler"
+readme = "README.md"
+keywords = ["compiler", "logical", "relational", "conditional", "operator", "operand"]
+
+[lib]
+name = "conditional_compiler"
+path = "src/lib.rs"
+edition = "2021"
+crate-type = ["lib"]
